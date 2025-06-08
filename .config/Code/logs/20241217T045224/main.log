@@ -1,0 +1,6 @@
+2024-12-17 04:52:25.680 [info] update#setState idle
+2024-12-17 04:52:55.235 [info] update#setState checking for updates
+2024-12-17 04:52:55.344 [info] update#setState idle
+2024-12-17 04:54:18.010 [info] Extension host with pid 1851 exited with code: 0, signal: unknown.
+2024-12-17 04:54:20.230 [warning] [storage main] detected slow close() operation: Time: 2071ms, DB size: 163840b, Large Keys: iconThemeData:96308, colorThemeData:14211, workbench.activity.placeholderViewlets:3915, memento/experiment.service.memento:3087, extensions.lastSyncUserData:2693
+2024-12-17 04:54:20.233 [warning] [storage main] detected slow close() operation: Time: 2075ms, DB size: 28672b, Large Keys: workbench.view.extensions.state:2005, __$__targetStorageMarker:1425, terminal.integrated.environmentVariableCollectionsV2:1093, workbench.activity.viewletsWorkspaceState:593, workbench.view.debug.state:593

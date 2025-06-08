@@ -1,0 +1,65 @@
+2024-12-17 04:52:45.028 [info] Getting Manifest... kevinrose.vsc-python-indent
+2024-12-17 04:52:45.161 [info] Installing extension: kevinrose.vsc-python-indent {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json","path":"/home/fromw0/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"}}
+2024-12-17 04:52:46.507 [info] Getting Manifest... oderwat.indent-rainbow
+2024-12-17 04:52:46.545 [info] Installing extension: oderwat.indent-rainbow {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json","path":"/home/fromw0/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"}}
+2024-12-17 04:52:52.250 [info] Extension signature verification result for kevinrose.vsc-python-indent: Success. Executed: true. Duration: 5938ms.
+2024-12-17 04:52:52.379 [info] Extracted extension to file:///home/fromw0/.vscode/extensions/kevinrose.vsc-python-indent-1.18.0: kevinrose.vsc-python-indent
+2024-12-17 04:52:52.399 [info] Renamed to /home/fromw0/.vscode/extensions/kevinrose.vsc-python-indent-1.18.0
+2024-12-17 04:52:52.470 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-17 04:52:52.474 [info] Extension installed successfully: kevinrose.vsc-python-indent vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json
+2024-12-17 04:52:52.502 [info] Extension signature verification result for oderwat.indent-rainbow: Success. Executed: true. Duration: 4303ms.
+2024-12-17 04:52:54.728 [info] Extracted extension to file:///home/fromw0/.vscode/extensions/oderwat.indent-rainbow-8.3.1: oderwat.indent-rainbow
+2024-12-17 04:52:54.836 [info] Renamed to /home/fromw0/.vscode/extensions/oderwat.indent-rainbow-8.3.1
+2024-12-17 04:52:54.903 [info] Extension installed successfully: oderwat.indent-rainbow vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json
+2024-12-17 04:52:54.947 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-17 04:53:08.087 [info] Getting Manifest... njpwerner.autodocstring
+2024-12-17 04:53:08.119 [info] Installing extension: njpwerner.autodocstring {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json","path":"/home/fromw0/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"}}
+2024-12-17 04:53:12.195 [info] Extension signature verification result for njpwerner.autodocstring: Success. Executed: true. Duration: 3213ms.
+2024-12-17 04:53:12.451 [info] Extracted extension to file:///home/fromw0/.vscode/extensions/njpwerner.autodocstring-0.6.1: njpwerner.autodocstring
+2024-12-17 04:53:12.501 [info] Renamed to /home/fromw0/.vscode/extensions/njpwerner.autodocstring-0.6.1
+2024-12-17 04:53:12.681 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-17 04:53:12.697 [info] Extension installed successfully: njpwerner.autodocstring vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json
+2024-12-17 04:53:24.341 [info] Getting Manifest... formulahendry.code-runner
+2024-12-17 04:53:24.372 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json","path":"/home/fromw0/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"}}
+2024-12-17 04:53:28.453 [info] Extension signature verification result for formulahendry.code-runner: Success. Executed: true. Duration: 3088ms.
+2024-12-17 04:53:29.270 [info] Extracted extension to file:///home/fromw0/.vscode/extensions/formulahendry.code-runner-0.12.2: formulahendry.code-runner
+2024-12-17 04:53:29.322 [info] Renamed to /home/fromw0/.vscode/extensions/formulahendry.code-runner-0.12.2
+2024-12-17 04:53:29.386 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json
+2024-12-17 04:53:29.417 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-17 04:53:34.875 [info] Getting Manifest... ms-playwright.playwright
+2024-12-17 04:53:34.920 [info] Installing extension: ms-playwright.playwright {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json","path":"/home/fromw0/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"}}
+2024-12-17 04:53:37.700 [info] Extension signature verification result for ms-playwright.playwright: Success. Executed: true. Duration: 1984ms.
+2024-12-17 04:53:37.827 [info] Extracted extension to file:///home/fromw0/.vscode/extensions/ms-playwright.playwright-1.1.12: ms-playwright.playwright
+2024-12-17 04:53:37.844 [info] Renamed to /home/fromw0/.vscode/extensions/ms-playwright.playwright-1.1.12
+2024-12-17 04:53:37.904 [info] Extension installed successfully: ms-playwright.playwright vscode-userdata:/home/fromw0/.vscode/extensions/extensions.json
+2024-12-17 04:53:37.930 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fromw0/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

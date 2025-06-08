@@ -1,0 +1,13 @@
+2025-01-04 16:13:23.699 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:13:23.704 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:13:23.705 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:13:27.781 [info] Started local extension host with pid 2314.
+2025-01-04 16:13:41.818 [info] [perf] Render performance baseline is 133ms
+2025-01-04 16:13:43.599 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-04 16:24:02.067 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:24:02.068 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:24:02.068 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-04 16:24:02.593 [info] Started local extension host with pid 2687.
+2025-01-04 16:24:06.928 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 118ms.
+2025-01-04 16:24:08.319 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-04 16:24:09.019 [info] [perf] Render performance baseline is 151ms
