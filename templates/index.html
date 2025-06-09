@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class="container mt-5">
+    <h2>Task Management</h2>
+
+    <!-- Notifications -->
+    {% if notifications %}
+      {% for notification in notifications %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          {{ notification.name }} (Due: {{ notification.due_date }}) is due soon!
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    <!-- Task Addition Form -->
+    <div class="card mb-4">
+      <div class="card-header">
+        Add New Task
+      </div>
+      <div class="card-body">
+        <form action="{{ url_for('add_task') }}" method="post">
+          <div class="mb-3">
+            <label for="name" class="form-label">Task Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="start_date" class="form-label">Start Date</label>
+              <input type="date" class="form-control" id="start_date" name="start_date" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="due_date" class="form-label">Due Date</label>
+              <input type="date" class="form-control" id="due_date" name="due_date" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="priority" class="form-label">Priority</label>
+            <select class="form-select" id="priority" name="priority" required>
+              <option value="高">高 (High)</option>
+              <option value="中">中 (Medium)</option>
+              <option value="低">低 (Low)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Add Task</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Task List -->
+    <h3>Current Tasks</h3>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Task Name</th>
+          <th scope="col">Start Date</th>
+          <th scope="col">Due Date</th>
+          <th scope="col">Priority</th>
+          <th scope="col">Status</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if tasks is defined and tasks %}
+          {% for task in tasks %}
+            <tr>
+              <td>{{ task.name }}</td>
+              <td {% if task.start_delayed %}class="text-danger"{% endif %}>{{ task.start_date }}</td>
+              <td {% if task.due_delayed %}class="text-danger fw-bold"{% endif %}>{{ task.due_date }}</td>
+              <td>{{ task.priority }}</td>
+              <td>
+                <form action="{{ url_for('update_status', task_id=task.id) }}" method="post" class="d-inline">
+                  <select name="status" class="form-select form-select-sm" onchange="this.form.submit()">
+                    <option value="未着手" {% if task.status == '未着手' %}selected{% endif %}>未着手</option>
+                    <option value="進行中" {% if task.status == '進行中' %}selected{% endif %}>進行中</option>
+                    <option value="待機中" {% if task.status == '待機中' %}selected{% endif %}>待機中</option>
+                    <option value="完了" {% if task.status == '完了' %}selected{% endif %}>完了</option>
+                  </select>
+                </form>
+              </td>
+              <td>
+                <form action="{{ url_for('delete_task', task_id=task.id) }}" method="post" class="d-inline">
+                  <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this task?');">Delete</button>
+                </form>
+              </td>
+            </tr>
+          {% endfor %}
+        {% else %}
+          <tr>
+            <td colspan="6" class="text-center">No tasks found.</td>
+          </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
