@@ -215,7 +215,7 @@ class Game:
         for i in range(num_obstacles):
             # Obstacle dimensions are randomized.
             obs_width = random.randint(30, 120)
-            obs_height = random.randint(30, SCREEN_HEIGHT * 0.6) # Height up to 60% of screen
+            obs_height = random.randint(30, int(SCREEN_HEIGHT * 0.6)) # Height up to 60% of screen
             # Obstacle X position is staggered off-screen to the right.
             obs_x = SCREEN_WIDTH + i * (SCREEN_WIDTH / num_obstacles) + random.randint(50, 300)
             max_y = SCREEN_HEIGHT - obs_height # Ensure obstacle is fully within screen vertically
